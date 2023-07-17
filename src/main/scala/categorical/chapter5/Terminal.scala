@@ -1,4 +1,4 @@
-package chapter5
+package categorical.chapter5
 
 trait Terminal[-A] {
   def apply(a: A): Unit

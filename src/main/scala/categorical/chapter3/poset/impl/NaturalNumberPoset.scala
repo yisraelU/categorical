@@ -1,6 +1,6 @@
-package chapter3.poset.impl
+package categorical.chapter3.poset.impl
 
-import chapter3.poset.Poset
+import categorical.chapter3.poset.Poset
 
 object NaturalNumberPoset extends Poset[Int] {
   def leq(a1: Int, a2: Int): Boolean = a1 <= a2

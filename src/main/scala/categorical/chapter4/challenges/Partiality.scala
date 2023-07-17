@@ -1,6 +1,6 @@
-package chapter4.challenges
+package categorical.chapter4.challenges
 
-import chapter4.Kleisli
+import categorical.chapter4.Kleisli
 
 // a Kleisli arrow from A to B is a function that takes an A and returns an F[B]
 // a Partiality is a Kleisli arrow from A to B where F is Option

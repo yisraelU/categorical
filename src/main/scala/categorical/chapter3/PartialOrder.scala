@@ -1,6 +1,6 @@
-package chapter3
+package categorical.chapter3
 
-trait PartialOrder[-A] extends Relation[A] {
+trait PartialOrder[A] extends Relation[A] {
   def leq(a1: A, a2: A): Boolean
 
   // laws for PartialOrder

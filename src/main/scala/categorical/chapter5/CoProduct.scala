@@ -1,4 +1,4 @@
-package chapter5
+package categorical.chapter5
 
 trait CoProduct[-A, -B, +C] {
   def injectA(a: A): C

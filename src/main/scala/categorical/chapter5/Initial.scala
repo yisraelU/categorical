@@ -1,4 +1,4 @@
-package chapter5
+package categorical.chapter5
 
 trait Initial[A] {
   def absurd(nothing: Nothing): A

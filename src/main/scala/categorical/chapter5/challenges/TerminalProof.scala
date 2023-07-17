@@ -1,6 +1,6 @@
-package chapter5.challenges
+package categorical.chapter5.challenges
 
-import chapter5.Terminal
+import categorical.chapter5.Terminal
 
 object TerminalProof {
 
