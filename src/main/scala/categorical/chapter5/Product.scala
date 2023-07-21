@@ -1,6 +1,6 @@
 package categorical.chapter5
 
-import categorical.Morphism
+import categorical.category.Morphism
 
 trait Product[+A, +B, -C] { self =>
   def projectA: Morphism[C, A]

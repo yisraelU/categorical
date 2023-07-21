@@ -1,5 +1,5 @@
 package categorical.chapter3
 
-import categorical.Morphism
+import categorical.category.Morphism
 
 trait Relation[A] extends Morphism[A, A]
