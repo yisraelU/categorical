@@ -1,6 +1,6 @@
 package categorical.category
 
-trait Category {
-  def id[A]: IdentityMorphism[A]
+trait Category[C] {
+  def id[A]: [A]
   def morphism[A, B]: Morphism[A, B]
 }
