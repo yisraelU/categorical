@@ -1,8 +1,8 @@
 package categorical.category
 
-import categorical.category.Morphism.FunctionMorphism
+import categorical.category.Morphism.{FunctionMorphism, IdentityMorphism}
 
-trait ScalaTypesCategory[A] extends Category[A]{
-  def id: FunctionMorphism[A,A]
-  def morphism[A, B]: FunctionMorphism[A,B]
+trait ScalaTypesCategory[A] extends Category[A] {
+  def id: IdentityMorphism[A]
+  def morphism: FunctionMorphism[A, B]
 }

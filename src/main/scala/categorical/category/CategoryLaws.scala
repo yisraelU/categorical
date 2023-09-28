@@ -6,5 +6,4 @@ trait CategoryLaws {
   // associativity law
   // composition law
 
-
 }

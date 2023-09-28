@@ -1,3 +1,3 @@
-package categorical.category trait CategoricalObject {
+package categorical.category
 
-}
+trait CategoricalObject[A]
